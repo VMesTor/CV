@@ -1,0 +1,166 @@
+/*Estilos de letra*/
+
+/*Para importar letras
+
+@font-face{
+	font-family: ''; 
+    src:url('../fonts//.ttf');
+}
+
+*/
+
+/*Incluir paquetes de letra*/
+@font-face{
+	font-family: 'Chewy'; 
+    src:url('../fonts/Chewy/Chewy.ttf');
+}
+
+@font-face{
+	font-family: 'Courgette'; 
+    src:url('../fonts/Courgette/Courgette-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Akronim'; 
+    src:url('../fonts/Akronim/Akronim-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Bad_Script'; 
+    src:url('../fonts/Bad_Script/Bad_Script-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Bilbo_Swash_Caps'; 
+    src:url('../fonts/Bilbo_Swash_Caps/Bilbo_Swash_Caps-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Cabin_Sketch'; 
+    src:url('../fonts/Cabin_Sketch/Cabin_Sketch-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Clicker_Script'; 
+    src:url('../fonts/Clicker_Script/ClickerScript-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Jacques_Francois_Shadow'; 
+    src:url('../fonts/Jacques_Francois_Shadow/JacquesFrancoisShadow-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Italianno'; 
+    src:url('../fonts/Italianno/Italianno-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Merienda_One'; 
+    src:url('../fonts/Merienda_One/MeriendaOne-Regular.ttf');
+}
+
+
+
+/*Estilo de letra basico*/
+.titulo{
+	font-family: 'Clicker_Script';
+}
+
+/*Estilo de letra en el mensaje*/
+.t1{
+	font-family: 'Chewy', cursive;
+	text-align: center;
+}
+
+.info{
+	font-size: 2em;
+	font-family: 'Clicker_Script';
+}
+
+/*Estilo de letra en los botones de navegacion*/
+.dat{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+.for{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+.adi{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+.exp{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+.dest{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+.inte{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+.proy{
+	font-family: 'Courgette';
+	cursor: pointer;
+}
+
+/*Estilo de letra de botones restantes*/
+
+.button{
+	font-family: 'Cabin_Sketch';
+}
+
+#bot{
+	font-family: 'Cabin_Sketch';
+}
+
+
+.pre{
+	font-family: 'Bilbo_Swash_Caps';
+	cursor: progress;
+}
+
+.cv{
+	font-family: 'Bilbo_Swash_Caps';
+	cursor: progress;
+}
+
+/*Estilo de letra de cada parte*/
+
+.t2{
+	font-family: 'Jacques_Francois_Shadow';
+}
+
+.cont{
+	font-family: 'Merienda_One';
+}
+
+
+/*Estilo de listas*/
+
+.l1{
+	list-style-type: lower-roman;
+}
+
+.l2{
+	list-style-type: circle;
+}
+
+.l3{
+	list-style-type: decimal-leading-zero;
+}
+
+.l4{
+	list-style-type: lower-latin;
+}
+

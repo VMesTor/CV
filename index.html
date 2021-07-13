@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="./style/estilo1.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./style/estilo2.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./style/demo.css" media="screen" />
+	<script type="text/javascript" src="./java/script.js"></script>
+	<script language="Javascript">
+document.oncontextmenu = function(){return false}
+</script>
+
+</head>
+<body>
+
+<a class="help" onmouseover="javascript:alert('Usa los botones para navegar por los distintos apartados');">Ayuda</a>
+
+<h1 class="titulo">Curriculum Vitae</h1>
+<hr>
+
+<img class="foto" src="./logo/logo.PNG" title="VMesTor">
+
+<br>
+
+<div id="vis">
+
+<iframe id="show" src="./part/msn.html" name="visualizar" frameborder="0">
+SU NAVEGADOR NO SOPORTA FRAMES
+</iframe>
+
+</div>
+
+<br>
+
+<div class="navegacion">
+
+<input class="dat" type="button" title="Clic para Datos" value="Datos" onclick="Dat();">
+<input class="for" type="button" title="Clic para Formación" value="Formación" onclick="For();">
+<input class="adi" type="button" title="Clic para Formación adicional" value="Formación adicional" onclick="Adi();">
+<input class="exp" type="button" title="Clic para Experiencia" value="Experiencia" onclick="Exp();">
+<input class="dest" type="button" title="Clic para Destrezas" value="Destrezas" onclick="Dest();">
+<input class="proy" type="button" title="Clic para Proyectos" value="Proyectos" onclick="Proy();">
+
+</div>
+
+<div class="overlay-container">
+		<div class="window-container zoomin">
+		<p>Paquete de Microsoft Office</p>
+		<p>HTML</p>
+		<p>PHP</p>
+		<p>CSS</p>
+		<p>MySQL</p>
+		<p>SQL Server</p>
+		<p>Javascript</p>
+		<p>Python</p>
+		<p>Lenguaje C</p>
+		<p>Lenguaje C++</p>
+		<p>Lenguaje C#</p>
+		<p>Linux Bash/scripting</p>
+		<p>Windows Power shell</p>
+		<p>Scripting Windows</p>
+		<p>Linux/Linux Server alto nivel</p>
+		<p>Windows/Windows Server alto nivel</p>
+		<p>Comandos redes</p>
+		<span class="close">Cerrar</span>
+		</div>
+	</div>
+
+<br>
+
+<input type="button" value="Manejo de programas/lenguajes" class="button" id="bot" data-type="zoomin" title="Clic para ver" />
+	
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="./java/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
+	<script type="text/javascript" src="./inf/demo.js"></script>
+
+<br>
+
+<p class="descargas">Los siguientes botones ofrecen la carta de presentación y el Curriculum Vitae en formato pdf.</p>
+
+
+<a href="./dat/carta.pdf" download="carta.pdf" title="Clic para descargar"><input class="pre" type="button" value="Carta de presentación"></a>
+
+<a href="./dat/CV.pdf" download="CV.pdf"><input class="cv" type="button" value="Curriculum Vitae" title="Clic para descargar"></a>
+
+<hr>
+
+</body>
+</html>
